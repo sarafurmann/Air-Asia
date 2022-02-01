@@ -4,6 +4,7 @@ body {
     font-size: 16px;
     line-height: 1.42;
     background: #001821;
+    margin: 0;
     -webkit-font-smoothing: antialiaed;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -21,11 +22,14 @@ ul li {
     list-style: none;
 }
 
-h1 h2 h3 {
+h1 h2 h3 h4 h5 h6 {
     margin: 0;
     font-weight: normal;
 }
 
+p {
+    margin: 0;
+}
 * {
     box-sizing: border-box;
 }
@@ -80,7 +84,7 @@ h1 h2 h3 {
 }
 
 .menu__link {
-    font-size: 14pt;
+    font-size: 14px;
     text-decoration: none;
 }
 
@@ -96,12 +100,14 @@ h1 h2 h3 {
 .contacts__phone {
     text-decoration: none;
     font-size: 26px;
-    margin-bottom: 4px;
+    line-height: 1;
+
 }
 
 .contacts__info {
     font-size: 13px;
     text-decoration: underline;
+    line-height: 1.2;
 }
 
 .hello__title {
@@ -109,6 +115,7 @@ h1 h2 h3 {
     font-weight: bold;
     line-height: 1.1;
     margin-bottom: 18px;
+    max-width: 520px;
 }
 
 .hello__text {
@@ -124,11 +131,15 @@ h1 h2 h3 {
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+    display: inline-block;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
 }
 
 .title--fire {
-    font-size: 36px;
-    font-weight: bold;
     margin-bottom: 51px;
 }
 
@@ -186,12 +197,14 @@ h1 h2 h3 {
 
 .offers__feature-img {
     margin-right: 10px;
+    vertical-align: middle;
 }
 
 .offers__feature-text {
     font-size: 16px;
     color: #666;
     line-height: 19px;
+    vertical-align: middle;
 }
 
 .offers__text {
@@ -204,6 +217,10 @@ h1 h2 h3 {
     margin-bottom: 24px;
 }
 
+
+.news__list {
+    margin-bottom: 57.5px;;
+}
 .news__item {
     width: 555px;
     display: inline-block;
@@ -227,6 +244,10 @@ h1 h2 h3 {
     bottom: 0;
     padding: 25px 30px;
     min-height: 140px;
+}
+
+.news__item-date {
+    display: block;
 }
 
 .pagination {
@@ -272,8 +293,9 @@ h1 h2 h3 {
     display: inline-block;
     width: 450px;
     height: 490px;
-    margin-right: -150px;
-    margin-left: 75px;
+    position: absolute;
+    top: -70px;
+    left: 0;
     background: url("./images/gates.png") center center / cover no-repeat;
 }
 
@@ -295,17 +317,28 @@ h1 h2 h3 {
     margin-bottom: 0;
 }
 
+.about__container {
+    padding-top: 97px;
+}
+
 .about__content {
-    display: inline-block;
-    width: 650px;
+    display: block;
+    position: relative;
+    width: 785px;
     height: 455px;
-    padding: 70px;
-    background: url("./images/mountains.png") center center / contain no-repeat;
+    padding: 70px 202px 66px 81px;
+    margin-left: auto;
+    color: #060606;
+    background: url("./images/mountains.png") center center / cover no-repeat;
 }
 
 .footer {
     height: 152px;
     position: relative;
+}
+
+.footer__container {
+    border-top: 1px solid rgba(255,255,255, 0.1);
 }
 
 .socials {
