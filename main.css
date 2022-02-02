@@ -288,6 +288,11 @@ p {
     color: #F5170E;
 }
 
+.about__container {
+    padding-top: 97px;
+    position: relative;
+}
+
 .about__cover {
     content: "";
     display: inline-block;
@@ -315,10 +320,6 @@ p {
 
 .about__text p:last-child {
     margin-bottom: 0;
-}
-
-.news__container {
-    padding-top: 97px;
 }
 
 .about__content {
