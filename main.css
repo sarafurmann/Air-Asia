@@ -299,7 +299,7 @@ p {
     width: 450px;
     height: 490px;
     position: absolute;
-    top: -70px;
+    top: 0;
     left: 0;
     background: url("./images/gates.png") center center / cover no-repeat;
 }
