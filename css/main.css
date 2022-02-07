@@ -44,7 +44,7 @@ img {
 }
 
 .wrapper--index {
-    background-image: url("./images/1.png"), url("./images/2.png");
+    background-image: url("../images/1.png"), url("./images/2.png");
     background-repeat: no-repeat;
     background-position: top, bottom;
 }
@@ -152,7 +152,7 @@ img {
 
 .title--fire::after {
     content: "";
-    background: url("./images/flame.png") no-repeat;
+    background: url("../images/flame.png") no-repeat;
     margin-left: 10px;
     width: 21px;
     height: 28px;
@@ -243,11 +243,11 @@ img {
 }
 
 .news__item--plain {
-    background-image: url("./images/plain.png");
+    background-image: url("../images/plain.png");
 }
 
 .news__item--serfer {
-    background-image: url("./images/Surfer.png");
+    background-image: url("../images/Surfer.png");
 }
 
 .news__text-content {
@@ -309,7 +309,7 @@ img {
     position: absolute;
     top: 0;
     left: 0;
-    background: url("./images/gates.png") center center / cover no-repeat;
+    background: url("../images/gates.png") center center / cover no-repeat;
 }
 
 .about__title {
@@ -338,7 +338,7 @@ img {
     padding: 70px 202px 66px 81px;
     margin-left: auto;
     color: #060606;
-    background: url("./images/mountains.png") center center / cover no-repeat;
+    background: url("../images/mountains.png") center center / cover no-repeat;
 }
 
 .footer {
@@ -432,7 +432,7 @@ img {
 
 .top-line {
     min-height: 412px;
-    background-image: url("./images/headline\ 1.png");
+    background-image: url("../images/headline\ 1.png");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
