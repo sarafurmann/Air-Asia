@@ -1,0 +1,85 @@
+.title {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.title--fire {
+    margin-bottom: 51px;
+}
+
+.title--fire::after {
+    content: "";
+    background: url("../../images/flame.png") no-repeat;
+    margin-left: 10px;
+    width: 21px;
+    height: 28px;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.offers__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.offers__item {
+    min-height: 470px;
+    background: #FFF;
+    border-radius: 4px;
+    width: calc(100% / 3 - 18px);
+}
+
+.offers__item:last-child {
+    margin-right: 0;
+}
+
+.offers__img {
+    width: 100%;
+    object-fit: cover;
+    min-height: 162px;
+}
+
+.offers__content {
+    padding: 26px 22px 52px;
+    color: #303030;
+}
+
+.offers__title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.offers__feature {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.offers__feature:last-child {
+    margin-right: 0;
+}
+
+.offers__feature-img {
+    margin-right: 10px;
+}
+
+.offers__feature-text {
+    font-size: 16px;
+    color: #666;
+    line-height: 19px;
+}
+
+.offers__text {
+    font-size: 14px;   
+    color: #303030; 
+    margin-bottom: 44px;
+}
+
+.offers__features {
+    margin-bottom: 24px;
+    display: flex;
+}

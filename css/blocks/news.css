@@ -1,0 +1,32 @@
+.news__list {
+    margin-bottom: 57.5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news__item {
+    width: 555px;
+    border-radius: 4px;
+    height: 394px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.news__item--plain {
+    background-image: url("../../images/plain.png");
+}
+
+.news__item--serfer {
+    background-image: url("../../images/Surfer.png");
+}
+
+.news__text-content {
+    padding: 25px 30px;
+    min-height: 170px;
+}
+
+.news__item-title {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 12px;
+}
