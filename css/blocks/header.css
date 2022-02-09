@@ -27,9 +27,15 @@
     margin-right: 66px;
 }
 
+.header__logo--main {
+    margin-right: 79px;
+}
+
+.menu__list {
+    display: flex;
+}
+
 .menu__item {
-    display: inline-block;
-    vertical-align: middle;
     margin-right: 50px;
 }
 

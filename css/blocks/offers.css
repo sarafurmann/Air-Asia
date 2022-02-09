@@ -19,6 +19,10 @@
     transform: translate(-50%, -50%);
 }
 
+.offers {
+    margin: 0 auto 100px;
+}
+
 .offers__list {
     display: flex;
     justify-content: space-between;
