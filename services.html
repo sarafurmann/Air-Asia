@@ -8,15 +8,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="normalize.css">
     <title>Air-Asia | Services Page</title>
 </head>
 <body>
     <div class="wrapper">
         <section class="top-line">
-            <header class="header">
-                <div class="container header__container">
+            <header class="header top-line__header">
+                <div class="container header__container top-line__header-container">
                     <div class="header__col">
-                        <a href="/" class="logo header__logo">
+                        <a href="/" class="logo header__logo top-line__header-logo">
                             <img src="./images/logo.png" alt="logo company" class="logo__img">
                         </a>
                         <nav class="menu header__menu">
@@ -160,30 +161,34 @@
                 </div>
             </section>
         </main>
-        <footer class="footer">
-                <div class="container footer__container">
-                    <a href="#" class="logo footer__logo">
-                        <img src="./images/logo.png" alt="logo company" class="logo__img">
-                    </a>
-                    <nav class="menu footer__menu">
-                        <ul class="menu__list">
-                            <li class="menu__item"><a href="" class="menu__link">Главная</a></li>
-                            <li class="menu__item"><a href="" class="menu__link">Услуги</a></li>
-                            <li class="menu__item"><a href="" class="menu__link">Отзывы</a></li>
-                        </ul>
-                    </nav>
-                    <div class="socials">
-                        <ul class="socials__list">
-                            <li class="social__item social__item-tg"><a href="" class="social__link"></a></li>
-                            <li class="social__item social__item-vk"><a href="" class="social__link"></a></li>
-                            <li class="social__item social__item-fb"><a href="" class="social__link"></a></li>
-                            <li class="social__item social__item-ig"><a href="" class="social__link"></a></li>
-                        </ul>
+        <footer class="footer inner-footer">
+                <div class="container footer__container inner-footer__container">
+                    <div class="footer__col">
+                        <a href="#" class="logo footer__logo">
+                            <img src="./images/logo.png" alt="logo company" class="logo__img">
+                        </a>
+                        <nav class="menu footer__menu">
+                            <ul class="menu__list">
+                                <li class="menu__item"><a href="" class="menu__link">Главная</a></li>
+                                <li class="menu__item"><a href="" class="menu__link">Услуги</a></li>
+                                <li class="menu__item"><a href="" class="menu__link">Отзывы</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                    <address class="contacts footer__contacts">
-                        <p class="contacts__about">Бесплатный звонок по России</p>
-                        <a href="tel: +78007003030" class="contacts__phone">8 800 700 30 30</a>
-                    </address>
+                    <div class="footer__col">
+                        <div class="socials">
+                            <ul class="socials__list">
+                                <li class="social__item social__item-tg"><a href="" class="social__link"></a></li>
+                                <li class="social__item social__item-vk"><a href="" class="social__link"></a></li>
+                                <li class="social__item social__item-fb"><a href="" class="social__link"></a></li>
+                                <li class="social__item social__item-ig"><a href="" class="social__link"></a></li>
+                            </ul>
+                        </div>
+                        <address class="contacts footer__contacts">
+                            <p class="contacts__about">Бесплатный звонок по России</p>
+                            <a href="tel: +78007003030" class="contacts__phone">8 800 700 30 30</a>
+                        </address>
+                    </div>
                 </div>
         </footer>
     </div>

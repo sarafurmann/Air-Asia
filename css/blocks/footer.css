@@ -1,10 +1,18 @@
 .footer {
-    height: 152px;
     position: relative;
+}
+
+.footer-container__section {
+    height: 152px;
 }
 
 .footer__col {
     display: flex;
+}
+
+.footer__menu {
+    display: flex;
+    align-items: center;
 }
 
 .footer__container {

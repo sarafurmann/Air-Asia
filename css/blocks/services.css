@@ -1,6 +1,6 @@
 .top-line {
     min-height: 412px;
-    background-image: url("../../images/headline\ 1.png");
+    background: url("../../images/headline\ 1.png") center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -9,10 +9,23 @@
     flex: 1;
     flex-direction: column;
     justify-content: space-between;
+    padding-bottom: 21px;
+}
+
+.top-line__header {
+    margin-bottom: 0;
 }
 
 .top-line__container {
     margin-bottom: 0;
+}
+
+.top-line__header-container{
+    padding-top: 31px;
+}
+
+.top-line__header-logo {
+    width: 98px;
 }
 
 .page-title {
@@ -48,7 +61,7 @@
 .page-content {
     background: #fff;
     color: #303030;
-    padding: 40px 0;
+    padding: 99px 0 84px 0;
 }
 
 .services {
@@ -57,29 +70,37 @@
 
 .service {
     display: flex;
-    padding: 58px 43px;
     text-decoration: none;
 }
 
 .service__img {
-    width: 30%;
-    margin-right: 7%;
+    width: 41%;
+    margin-right: 4.4%;
 }
 
 .service__content {
     flex: 1;
+    padding-top: 10px;
 }
 
 .service__title {
-    font-size: 30px;
+    font-size: 36px;
     font-weight: bold;
-    margin-bottom: 22px;
+    margin-bottom: 35px;
     color: #000000;
 }
 
 .service__desc {
     line-height: 1.7;
     margin-bottom: 30px;
+}
+
+.services__item {
+    margin-bottom: 48px;
+}
+
+.services__item:last-child {
+    margin-bottom: 0;
 }
 
 .inner-section {
@@ -101,18 +122,20 @@
 .partners {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -46px;
+    justify-content: space-between;
 }
 
-.partners__item {
-    margin-left: 46px;
+.partners__item .partners__link {
+    justify-content: center;
 }
 
-/*
-.partners__item:nth-child(4n + 1) {
-    margin-left: 0;
+.partners__item:nth-child(4n + 1) .partners__link {
+    justify-content: flex-start;
 }
-*/
+
+.partners__item:nth-child(4n + 4) .partners__link {
+    justify-content: flex-end;
+}
 
 .partners__link {
     text-decoration: none;
@@ -120,10 +143,18 @@
     width: 250px;
     height: 100px;
     align-items: center;
-    justify-content: center;
+    max-width: 285px;
     filter: grayscale(100%);
 }
 
 .partners__link:hover {
     filter: grayscale(0);
+}
+
+.inner-footer {
+    margin-top: auto;
+}
+
+.inner-footer__container {
+    padding: 45px 0 ;
 }
