@@ -43,11 +43,11 @@
 .offers__img {
     width: 100%;
     object-fit: cover;
-    min-height: 162px;
+    min-height: 144px;
 }
 
 .offers__content {
-    padding: 26px 22px 52px;
+    padding: 15px 20px 20px;
     color: #303030;
 }
 
@@ -80,10 +80,10 @@
 .offers__text {
     font-size: 14px;   
     color: #303030; 
-    margin-bottom: 44px;
+    margin-bottom: 32px;
 }
 
 .offers__features {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     display: flex;
 }
