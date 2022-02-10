@@ -18,7 +18,18 @@
 }
 
 .central__logo {
-    margin-bottom: 65px;
+    width: 279px;
+    height: 119px;
+}
+
+.welcome__info {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 52px;
+}
+
+.button--color--red {
+    padding: 15px 50px;
 }
 
 @keyframes bounce {
