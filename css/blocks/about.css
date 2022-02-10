@@ -7,8 +7,8 @@
 .about__cover {
     content: "";
     display: inline-block;
-    width: 450px;
-    height: 490px;
+    width: 485px;
+    height: 500px;
     position: absolute;
     top: 0;
     left: 0;
@@ -22,7 +22,7 @@
 }
 
 .about__text {
-    margin-bottom: 42px;
+    margin-bottom: 53px;
 }
 
 .about__text p {
