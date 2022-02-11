@@ -64,8 +64,20 @@ img {
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
+    cursor: pointer;
 }
 
+.button--color--black {
+    background: #2B2B2B;
+}
+
+.button--color--black:hover {
+    background: #1A1B1E;
+}
+
+.button--color--red:hover {
+    background: #DA0100;
+}
 
 .pagination {
     display: flex;
