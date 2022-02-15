@@ -32,6 +32,7 @@
     padding: 15px 50px;
 }
 
+/*
 @keyframes bounce {
     0% {
         transform: translateY(0);
@@ -59,5 +60,39 @@
 
     80% {
         transform: translateY(0);
+    }
+}
+*/
+
+.central__asia {
+    opacity: 0;
+    animation: zoom .9s ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(.7);
+    }
+
+    20% {
+        transform: scale(1.15);
+    }
+
+    40% {
+        transform: scale(.9);
+    }
+
+    60% {
+        transform: scale(1.1);
+    }
+
+    80% {
+        transform: scale(.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
     }
 }

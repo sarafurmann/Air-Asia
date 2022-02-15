@@ -65,18 +65,22 @@ img {
     text-decoration: none;
     display: inline-block;
     cursor: pointer;
+    transition: all 0.5s;
 }
 
 .button--color--black {
     background: #2B2B2B;
+    transition: all 0.5s;
 }
 
 .button--color--black:hover {
     background: #1A1B1E;
+    transition: all 0.5s;
 }
 
 .button--color--red:hover {
     background: #DA0100;
+    transition: all 0.5s;
 }
 
 .pagination {
