@@ -43,17 +43,15 @@
     margin-right: 17px;
 }
 
-.review__tags {
-    display: flex;
-    align-items: flex-start;
-}
-
 .tag {
     font-size: 13px;
     color: #333;
     padding: 8px 16px;
     border-radius: 50px;
     background: #E7E7E7;
+    display: inline-flex;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .tag--bg--green {
@@ -89,13 +87,14 @@
     padding-top: 20px;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 .separator__title {
     font-size: 48px;
     font-weight: bold;
-    line-height: 1.1
+    line-height: 1.1;
+    margin-right: 25px;
 }
 
 .form__row {

@@ -144,6 +144,7 @@
     align-items: center;
     max-width: 285px;
     filter: grayscale(100%);
+    transition: all 0.5s;
 }
 
 .partners__link:hover {

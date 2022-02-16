@@ -29,6 +29,8 @@
 
 .header__logo--main {
     margin-right: 79px;
+    width: 85px;
+    height: 36px;
 }
 
 .menu__list {
@@ -42,6 +44,7 @@
 .menu__link {
     font-size: 14px;
     text-decoration: none;
+    transition: all 0.5s;
 }
 
 .menu__link:hover {
@@ -68,6 +71,7 @@
 
 .dropdown {
     position: relative;
+    transition: all 0.5s;
 }
 
 .dropdown__menu {
@@ -91,6 +95,7 @@
 .dropdown:hover .dropdown__menu {
     left: unset;
     opacity: 1;
+    right: 0;
 }
 
 .dropdown__menu::before {
@@ -106,7 +111,7 @@
 .dropdown__menu::after {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
-    border-bottom: 20px solid #CDD1D2;
+    border-bottom: 20px solid #EDEDED;
     top: -7px;
     content: '';
     left: 86px;
