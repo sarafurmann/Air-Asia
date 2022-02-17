@@ -51,6 +51,10 @@
     color: #DA0100;
 }
 
+.menu__link--active {
+    font-weight: bold;
+}
+
 .contacts {
     font-style: normal;
     text-align: right;
