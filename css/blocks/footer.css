@@ -60,17 +60,33 @@
     position: relative;
 }
 
+.social__item-tg .social__link:hover:before {
+    opacity: 1;
+}
+
+.social__item-tg .social__link:hover:after {
+    opacity: 0;
+}
+
 .social__item-tg .social__link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 36px; 
+    height: 36px;
+    background: url("../../images/css_sprites.png") -10px -122px;
+    transition: .3s;
+
+}
+.social__item-tg .social__link:before {
     content: "";
     display: block;
     position: absolute;
     transition: all 0.3s;
     width: 36px; 
     height: 36px;
-    background: url("../../images/css_sprites.png") -10px -122px;
-
-}
-.social__item-tg .social__link:hover:after {
+    opacity: 0;
+    transition: .3s;
     background: url("../../images/css_sprites.png") -10px -290px;
 }
 
@@ -78,54 +94,99 @@
     position: relative;
 }
 
+.social__item-vk .social__link:hover:before {
+    opacity: 1;
+}
+
+.social__item-vk .social__link:hover:after {
+    opacity: 0;
+}
+
 .social__item-vk .social__link:after {
     content: "";
     display: block;
     position: absolute;
-    transition: all 0.3s;
     width: 36px; 
     height: 36px;
     background: url("../../images/css_sprites.png") -10px -178px;
+    transition: .3s;
 }
 
-.social__item-vk .social__link:hover:after {
+.social__item-vk .social__link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 36px; 
+    height: 36px;
     background: url("../../images/css_sprites.png") -10px -402px;
+    opacity: 0;
+    transition: .3s;
 }
 
 .social__item-fb .social__link {
     position: relative;
 }
 
+.social__item-fb .social__link:hover:before {
+    opacity: 1;
+}
+
+.social__item-fb .social__link:hover:after {
+    opacity: 0;
+}
+
 .social__item-fb .social__link:after {
     content: "";
     display: block;
     position: absolute;
-    transition: all 0.3s;
     width: 36px; 
     height: 36px;
     background: url("../../images/css_sprites.png") -10px -10px;
+    transition: .3s;
 }
 
-.social__item-fb .social__link:hover::after {
+.social__item-fb .social__link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 36px; 
+    height: 36px;
     background: url("../../images/css_sprites.png") -10px -234px;
+    transition: .3s;
+    opacity: 0;
 }
 
 .social__item-ig .social__link {
     position: relative;
 }
 
-.social__item-ig .social__link::after {
+.social__item-ig .social__link:hover:before {
+    opacity: 1;
+}
+
+.social__item-ig .social__link:hover:after {
+    opacity: 0;
+}
+
+.social__item-ig .social__link:after {
     content: "";
     display: block;
     position: absolute;
-    transition: all 0.3s;
     width: 36px; 
     height: 36px;
     background: url("../../images/css_sprites.png") -10px -66px;
+    transition: .3s;
 }
 
-.social__item-ig .social__link:hover::after {
+.social__item-ig .social__link:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 36px; 
+    height: 36px;
     background: url("../../images/css_sprites.png") -10px -346px;
+    transition: .3s;
+    opacity: 0;
 }
 
 .footer__logo {
