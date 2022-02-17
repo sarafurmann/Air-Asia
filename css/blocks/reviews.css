@@ -96,6 +96,10 @@
     margin-right: 25px;
 }
 
+.inner-section__reviews {
+    margin-bottom: 57px;
+}
+
 .form__row {
     display: flex;
     margin-bottom: 26px;
