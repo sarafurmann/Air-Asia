@@ -96,13 +96,17 @@
     margin-right: 25px;
 }
 
-.inner-section__reviews {
-    margin-bottom: 57px;
+.inner-section--reviews {
+    padding-top: 50px;
+}
+
+.inner-section__title--form {
+    margin-bottom: 54px;
 }
 
 .form__row {
     display: flex;
-    margin-bottom: 26px;
+    margin-bottom: 19px;
 }
 
 .form__input {
@@ -136,7 +140,7 @@
 
 .form__controls {
     display: flex;
-    margin-bottom: 28px;
+    margin-bottom: 10px;
 }
 
 .form__controls-title {
@@ -175,7 +179,7 @@
 }
 
 .form__button {
-    margin-right: 20px;
+    margin-right: 10px;
     border: none;
 }
 

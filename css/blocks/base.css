@@ -92,12 +92,16 @@ img {
     background: #8E8E8E;
     border-radius: 35px;
     font-size: 14px;
-    padding: 15px 60px;
+    padding: 18px 45px;
     transition: all 0.5s;
 }
 
 .button--color--black:hover {
     background: #1A1B1E;
+}
+
+.button--color--red {
+    padding: 18px 45px;
 }
 
 .button--color--red:hover {
