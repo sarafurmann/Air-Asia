@@ -43,6 +43,11 @@
     font-size: 14px;
 }
 
+.breadcrumbs__item--active .breadcrumbs__link {
+    font-weight: bold;
+    display: flex;
+}
+
 .breadcrumbs__item {
     display: flex;
     align-items: center;
