@@ -57,39 +57,75 @@
 }
 
 .social__item-tg .social__link {
-    background-image: url("../../images/telegram.png");
-    transition: all 0.5s;
+    position: relative;
 }
 
-.social__item-tg .social__link:hover {
-    background-image: url("../../images/tghover.png");
+.social__item-tg .social__link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all 0.3s;
+    width: 36px; 
+    height: 36px;
+    background: url("../../images/css_sprites.png") -10px -122px;
+
+}
+.social__item-tg .social__link:hover:after {
+    background: url("../../images/css_sprites.png") -10px -290px;
 }
 
 .social__item-vk .social__link {
-    background-image: url("../../images/vk.png");
-    transition: all 0.5s;
+    position: relative;
 }
 
-.social__item-vk .social__link:hover {
-    background-image: url("../../images/vkhover.png");
+.social__item-vk .social__link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all 0.3s;
+    width: 36px; 
+    height: 36px;
+    background: url("../../images/css_sprites.png") -10px -178px;
+}
+
+.social__item-vk .social__link:hover:after {
+    background: url("../../images/css_sprites.png") -10px -402px;
 }
 
 .social__item-fb .social__link {
-    background-image: url("../../images/f.png");
-    transition: all 0.5s;
+    position: relative;
 }
 
-.social__item-fb .social__link:hover {
-    background-image: url("../../images/fbhover.png");
+.social__item-fb .social__link:after {
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all 0.3s;
+    width: 36px; 
+    height: 36px;
+    background: url("../../images/css_sprites.png") -10px -10px;
+}
+
+.social__item-fb .social__link:hover::after {
+    background: url("../../images/css_sprites.png") -10px -234px;
 }
 
 .social__item-ig .social__link {
-    background-image: url("../../images/in.png");
-    transition: all 0.5s;
+    position: relative;
 }
 
-.social__item-ig .social__link:hover {
-    background-image: url("../../images/inhover.png");
+.social__item-ig .social__link::after {
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all 0.3s;
+    width: 36px; 
+    height: 36px;
+    background: url("../../images/css_sprites.png") -10px -66px;
+}
+
+.social__item-ig .social__link:hover::after {
+    background: url("../../images/css_sprites.png") -10px -346px;
 }
 
 .footer__logo {
